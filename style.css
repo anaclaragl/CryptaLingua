@@ -6,7 +6,16 @@
     font-weight: thin;
 }
 body{
-    background-color: white;
+    background-color: #F2EEEB;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px;
+    background-color: #e3deda;
 }
 
 address{
@@ -15,31 +24,41 @@ address{
     margin-right: 50px;
 }
 
+
 .logo{
     display: flex;
-    justify-content: left;
     align-items: center;
-    margin: 7px;
+    color: #143B40;
+    font-size: 20px;
 }
 
-.logo img{
+/*.logo img{
     width: 40px; 
     height: 40px;
     margin-right: 7px;
-}
+}*/
 
 .menu{
     font-size: 20px;
     display: flex;
-    justify-content: right;
     align-items: center;
-    margin: 7px;
-    margin-right: 50px;
+}
+
+.menu a{
+    color: #143B40;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    background-color: #d3ccc8;
 }
 
 .boxes_sec{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -48,9 +67,30 @@ address{
     height: 500px;
     flex: 25%;
     margin: 50px;
-    border: 5px solid grey;
-    border-radius: 10px;
-    background-color: #f2f2f2;
+    background-color: #F2EEEB;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d3ccc8;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.45);
+}
+
+.input_container p{
+    color: #143B40;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.input{
+    align-items: center;
+    width: 100%;
+    height: 440px;
+    font-size: 20px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background: 0 0;
+    outline: none;
 }
 
 .cipher_container{
@@ -60,20 +100,10 @@ address{
     flex: 25%;
     border: 5px solid grey;
     border-radius: 10px;
-    background-color: #f2f2f2;
+    background-color: #F2EEEB;
 }
 
-.response_container{
-    width: 80px;
-    height: 500px;
-    margin: 50px;
-    flex: 25%;
-    border: 5px solid grey;
-    border-radius: 10px;
-    background-color: #f2f2f2;
-}
-
-.vr{
+.vr{ /*Vertical Line*/
     border-left: 2px solid grey;
     margin-right: 10px;
 }

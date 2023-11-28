@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -54,6 +56,22 @@ address{
 
 .menu a:hover {
     background-color: #d3ccc8;
+}
+
+/*Transição pra entrar*/
+
+.menu a.brazil:hover{
+    background-image: url(images/brazil.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
+}
+
+.menu a.eng:hover{
+    background-image: url(images/united-states.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 60%;
 }
 
 .boxes_sec{
@@ -129,6 +147,45 @@ address{
 
 .cipher_container a:hover{
     background-color: #e4dbd6;
+}
+
+.cipher_config{
+    width: 100%;
+    height: 440px;
+    background-color: lightgreen;
+    margin-top: 5px;
+}
+
+.choose_cipher{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: lightcyan;
+    align-items: center;
+    justify-content: left;
+}
+
+.type_key{
+    margin-top: 2px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+.key{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background: 0 0;
+    overflow: hidden;
+    outline: 1px solid black;
+    margin: 10px;
 }
 
 .vr{ /*Vertical Line*/

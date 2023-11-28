@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Cipher decoder and wiki">
-    <title>Crypta Lingua</title>
+    <title>dCrypta</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="logo">
             <!--<img src="images/posLogo.png"/>-->
-            <h2>Crypta Lingua</h2>
+            <h2>dCrypta</h2>
         </div>
         <div class="menu">
             <nav>
@@ -22,29 +19,38 @@
                     <span class="vr"></span>
                     <a href="">Wiki</a>
                     <span class="vr"></span>
-                    <a href="">About me</a>
+                    <a class="brazil" href="">PT</a>
+                    <span>-</span>
+                    <a class="eng" href="">EN</a>
                 </ul>
             </nav>
         </div>
     </header>
     <section class="boxes_sec">
         <div class="input_container">
-            <p>PLAINTEXT</p>
+            <p>TEXT TO DECODE</p>
             <hr>
             <textarea class="input" spellcheck="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel gravida ligula, ut tempus erat. Duis ullamcorper, felis ut volutpat commodo, libero metus consequat ex, sit amet pharetra justo erat eget urna. In lobortis, massa a dignissim feugiat, justo nunc tristique arcu, interdum vestibulum odio ex vitae nibh. Nullam tortor nunc, tempor vitae aliquet viverra, eleifend ut lectus. Maecenas pretium commodo hendrerit. Aliquam in pellentesque sapien, nec mattis ex. Nulla facilisi. Phasellus placerat turpis enim, eget luctus nulla pretium at. Aenean faucibus iaculis justo blandit euismod. Ut nulla neque, suscipit vel cursus vel, ullamcorper vitae purus. Integer sollicitudin auctor metus, quis placerat libero pulvinar sed. Aliquam sit amet maximus purus, ut luctus lorem.
                 Vestibulum augue nibh, eleifend non metus sed, commodo dignissim magna. Integer orci tellus, mollis at mi id, semper ultrices eros. Curabitur feugiat sapien finibus euismod consectetur. Vivamus dui augue, tincidunt eu elementum ac, commodo at lectus. Suspendisse potenti. Praesent sem lorem, eleifend et venenatis sed, dapibus sed nisi. Integer posuere ultricies augue, a rhoncus est pulvinar eget. Morbi eros purus, egestas ac pellentesque vitae, cursus at magna. Phasellus iaculis cursus vestibulum. Praesent ut nibh eu nunc fringilla bibendum. Orci varius natoque penatibus et magnis dis parturient montes.</textarea>
         </div>
-        <div class="plus">+</div>
+        <div class="arrow">-></div>
         <div class="cipher_container">
                 <div class="cipher_header">
                     <a href=""><p>ENCODE</p></a>
                     <a href=""><p>DECODE</p></a>
                 </div>
-            <hr>
+                <hr>
+                <div class="cipher_config">
+                    <div class="choose_cipher">Ceaser</div>
+                    <div class="type_key">
+                        <p>key</p>
+                        <textarea class="key" spellcheck="false"></textarea>
+                    </div>
+                </div>
         </div>
-        <div class="plus">+</div>
+        <div class="arrow">-></div>
         <div class="input_container">
-            <p>CIPHERTEXT</p>
+            <p>TEXT DECODED</p>
             <hr>
             <textarea class="input" spellcheck="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel gravida ligula, ut tempus erat. Duis ullamcorper, felis ut volutpat commodo, libero metus consequat ex, sit amet pharetra justo erat eget urna. In lobortis, massa a dignissim feugiat, justo nunc tristique arcu, interdum vestibulum odio ex vitae nibh. Nullam tortor nunc, tempor vitae aliquet viverra, eleifend ut lectus. Maecenas pretium commodo hendrerit. Aliquam in pellentesque sapien, nec mattis ex. Nulla facilisi. Phasellus placerat turpis enim, eget luctus nulla pretium at. Aenean faucibus iaculis justo blandit euismod. Ut nulla neque, suscipit vel cursus vel, ullamcorper vitae purus. Integer sollicitudin auctor metus, quis placerat libero pulvinar sed. Aliquam sit amet maximus purus, ut luctus lorem.
                 Vestibulum augue nibh, eleifend non metus sed, commodo dignissim magna. Integer orci tellus, mollis at mi id, semper ultrices eros. Curabitur feugiat sapien finibus euismod consectetur. Vivamus dui augue, tincidunt eu elementum ac, commodo at lectus. Suspendisse potenti. Praesent sem lorem, eleifend et venenatis sed, dapibus sed nisi. Integer posuere ultricies augue, a rhoncus est pulvinar eget. Morbi eros purus, egestas ac pellentesque vitae, cursus at magna. Phasellus iaculis cursus vestibulum. Praesent ut nibh eu nunc fringilla bibendum. Orci varius natoque penatibus et magnis dis parturient montes.</textarea>
